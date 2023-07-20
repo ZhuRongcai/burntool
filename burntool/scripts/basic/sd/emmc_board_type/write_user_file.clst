@@ -1,0 +1,4 @@
+uuu_version 1.2.39
+FB: ucmd setenv sd_dev 0
+FB[-t 60000]: ucmd ext4write mmc ${sd_dev}:2 ${fastboot_buffer} ${TARGET_FILE} ${fastboot_bytes}
+FB: Done
